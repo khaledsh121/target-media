@@ -1,0 +1,49 @@
+.forth-section-container{
+    width: 100%;
+    height: 10.8758982327%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.service-header-container{
+    width: 10%;
+    height: 9.55357142857%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service-header-container h1{
+    font-weight: 700; 
+    font-size: calc(2vw + 1vh);
+    text-align: center;
+    margin: 0;
+}
+
+.under-line-with-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-line-logo , .right-line-logo{
+    width: 38%;
+    border-bottom: 1px solid #000;
+    height: 50%;
+}
+
+.small-logo-img{
+    width: 18%;
+}
+
+.cards-container{
+    width:80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+

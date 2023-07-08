@@ -1,0 +1,80 @@
+.second-container{
+    width: 100%;
+    height: 9.41930471936%;
+    display: flex;
+    background: url('../images/background1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.vedio-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-back-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.right-back-container img{
+    width: 29.0625%;
+    height: 77.3195876289%;
+}
+
+
+.vedio-inner-container {
+    position: relative;
+    width: 76.25%;
+    height: 65.1546391753%;
+    padding-top: 0; /* Maintain the aspect ratio of 4:3 */
+    /* background: url('../images/tv-up.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.90721649485%;
+    overflow: hidden;
+  }
+  
+
+
+.vedio-container p{
+    width: 46.6666666667%;
+    height: 4.94845360825%;
+    font-size: calc(1.2vw + 0.6vh);
+    text-align: center;
+}
+
+video{
+    width: 93%;
+    height:92%;
+    object-fit: cover;
+    z-index: 99;
+}
+
+
+.tv-up-img{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height:100%;
+}
+
+.tv-down-img{
+   width:34.2708333333%;
+   height: 12.4742268041%;
+}
+
+

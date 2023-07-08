@@ -1,0 +1,31 @@
+.Servece-card-container{
+    width: 30.8333333333%;
+    height: 58.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(112,112,112, 0.2);
+    border-radius: 9px;
+
+    
+}
+
+
+.service-header{
+    font-weight: 700; 
+    text-align: center;
+    font-size: calc(1.3vw + 0.65vh);
+    font-style: normal; 
+    margin: 0;
+    padding: 0;
+}
+
+.servece-img{
+    width: 100%;
+    height: 60%;
+}
+
+.middle-card{
+    margin-bottom: 40px;
+}
